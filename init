@@ -2,3 +2,17 @@ source ~/.bash/colors
 source ~/.bash/settings
 source ~/.bash/alias
 source ~/.bash/functions
+
+# The following are optionl
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+# Mojo
+export MODULAR_HOME="$HOME/.modular"
+export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
+export MOJO_PYTHON_LIBRARY="/usr/lib/x86_64-linux-gnu/libpython3.10.so"
+# Clang
+export CC=clang
+export CXX=clang++
+# LLVM
+export LLVM_SYMBOLIZER_PATH=/usr/bin/llvm-symbolizer
